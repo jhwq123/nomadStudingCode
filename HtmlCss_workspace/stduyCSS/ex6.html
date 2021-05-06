@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+    <head>
+        <title>CSS 학습</title>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <style>
+            span{
+                color: tomato;
+                background-color: yellowgreen;
+                padding: 5px;
+                border-radius: 10px;
+            }
+            p span{
+                color: white;
+            }
+
+            main > span{
+                text-decoration: underline;
+            }
+
+            p + span{
+                color: blueviolet;
+            }
+
+            input{
+                border: 1px solid wheat;
+            }
+
+            input:required{
+                border-color: tomato;
+            }
+
+            input[placeholder$="Name"]{
+                background-color: pink;
+            }
+
+            button:active{
+                background-color: tomato;
+            }
+
+            input:focus{
+                background-color: blue;
+            }
+
+            a:visited{
+                color: yellow; 
+            }
+
+            a:hover{
+                color: teal;
+            }
+
+            a:focus{
+                color: red;
+            }
+
+            form{
+                border: 1px solid salmon;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            form:focus-within{
+                border-color: seagreen;
+            }
+
+            form:hover input:focus{
+                background-color: magenta;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header></header>
+
+        <main>
+            <form>
+                <input type="text" name="" id="" />
+                <input type="text" name="" id="" />
+                <input type="text" name="" id="" />
+            </form>
+        </main>
+
+        <footer></footer>
+    </body>
+
+</HTML>

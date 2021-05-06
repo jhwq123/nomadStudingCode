@@ -1,0 +1,16 @@
+html {
+    font-size: 10px;
+    font-family: placeholder: 구글 폰트로부터 여러분이 얻은 마지막 결과가 있어야합니다.
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
