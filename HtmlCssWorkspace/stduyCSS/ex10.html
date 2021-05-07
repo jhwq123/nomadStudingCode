@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+    <head>
+        <title>nomad studing</title>
+        <style>
+            body{
+                display: flex;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+            }
+            @keyframes superSexyCoinFlip{
+                0%{
+                    transform: rotateY(0);
+                }
+                25%{
+                    transform: scale(2);
+                }
+                50%{
+                    border-radius: 0px;
+                    transform: rotateY(180deg) translateY(100px);
+                    border-color: tomato;
+                }
+                75%{
+                    transform: scale(5);
+                    opacity: 0;
+                }
+                100%{
+                    transform: rotateY(0) translateY(0px);
+                }
+            }
+           img{
+               border: 3px solid black;
+               border-radius: 50%;
+               animation: superSexyCoinFlip 5s ease-in-out infinite;
+           } 
+        </style>
+    </head>
+
+    <body>
+        <img src="img/monkey.png" />
+    </body>
+
+</HTML>
