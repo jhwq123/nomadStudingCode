@@ -5,7 +5,9 @@ function App() {
   return (
     <div>
       <h1>Coin Explorer</h1>
-      <Router />
+      <h2>
+        <Router />
+      </h2>
     </div>
   );
 }
